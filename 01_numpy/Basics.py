@@ -19,16 +19,11 @@
 # print(d)
 # print(e)
 # print (f)
-import numpy as np
-# Creating Array with range 
-# The basic structure is like that : array=np.arange(start,stop,step)
-arrayRange=np.arange(0,20,4)
-arrayRange2=np.arange(1,20)
-print(arrayRange)
-print(arrayRange2)
 
-# Linespace function
-arrayLSP=np.linspace(0, 20, 5)
-arrayLSP2=np.linspace(0,1,5)
-print(arrayLSP)
-print(arrayLSP2)
+import numpy as np
+array=np.array([[2, 3, 4, 5, 6],[6, 7, 8, 9, 7]]) 
+print(array)
+print('dimension of array is ', array.ndim)
+print('Shape of array is ', array.shape) # Its shape will be (2,5)
+print('Size of array is ',array.size)
+print('Type of Element is ',array.dtype)
